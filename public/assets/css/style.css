@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'cairo';
+    src: url('../fonts/Cairo/Cairo-Regular.ttf');
+}
+
+html, body{
+    direction: rtl;
+    font-family: 'cairo',sans-serif,"Open Sans";
+}
+
+textarea {
+    resize: none;
+}
+
+.mt-5{
+    margin-top: 5px;
+}
+
+.page-header.navbar .page-logo .logo-default{
+    width: 100px;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'cairo',sans-serif,"Open Sans"
+}
+
+/* For Tools buttons pdf, csv, ... */
+div.dt-buttons, #sample_1_paginate, #sample_1_info, #sample_1_length{
+    display: none;
+}
+
+td img.table-photo{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+td.iteration{
+    width: 4%;
+}
+
+.table .btn-group .ml-5{
+    margin-left: 5px;
+}
+
+form.destroy-form{
+    display: inline-block;
+}
+
+.table td{
+    font-size: 15px;
+}
+
+img.form-photo{
+    width: 100px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+div.show-data{
+    font-size: 17px;
+}
+
+div.data-group{
+    margin-bottom: 20px;
+}
+
+div.invoice-block{
+    margin-top: 25px;
+}
+
+.select2{
+    direction: rtl;
+}
+
+hr.roles {
+    margin: 13px 0;
+}
+
+div.data-group>div:first-child{
+    font-weight: bold;  
+}
